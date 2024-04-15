@@ -11,7 +11,7 @@ function EarlyLife() {
     <div className="page-container" id="early-life" data-aos="fade-right">
       <div className="early-life-container">
         <div className="early-life-image">
-          <img src="../src/assets/hilter.webp" alt="Adolf Hitler" />
+          <img src="https://cdn.britannica.com/48/91348-004-ACD20D42.jpg" alt="Adolf Hitler" />
         </div>
         <div className="early-life-intro">
           <h1>Early Life of Adolf Hitler</h1>
