@@ -27,7 +27,7 @@ function WorldWar2() {
         </div>
         <div className="world-war2-image"data-aos="zoom-out">
           <img
-            src="src/assets/ww2.jpg"
+            src="https://cropper.watch.aetnd.com/public-content-aetn.video.aetnd.com/video-thumbnails/AETN-History_VMS/725/175/BRAND_THC_BSFC_181161_SFM_000_2997_15_20150113_00_HD.jpg"
             alt="Adolf Hitler"
           />
         </div>
