@@ -1,0 +1,36 @@
+/* Dictator.css */
+.page-container {
+    padding: 20px;
+  }
+  
+  .dictator-container {
+    display: flex;
+  }
+  
+  .dictator-image {
+    flex: 1;
+  }
+  
+  .dictator-image img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .dictator-text {
+    flex: 2;
+    padding-left: 20px; /* Add some spacing between image and text */
+  }
+  
+  .dictator-text h1 {
+    font-size: 40px;
+    color:#EA906C;
+    margin-bottom: 10px;
+  }
+  
+  .dictator-text p {
+    font-size: 18px;
+    color:#F6F1EE;
+    text-align: justify;
+    line-height: 1.6;
+  }
+  

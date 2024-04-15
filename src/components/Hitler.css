@@ -1,0 +1,61 @@
+/* Hitler.css */
+.page-container {
+    width: 80%;
+    margin: 0 auto; /* Center the page container */
+    
+  }
+  
+  .hitler-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .hitler-image img {
+    max-width: 400px; /* Adjust image size as needed */
+     /* border-radius: 50%; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 20px;
+  }
+  .hitler-intro {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin: 20px;
+    color: burlywood;
+    /* -webkit-text-stroke: 0.3vw rgb(138, 71, 20); */
+  }
+  h1::before{
+    content: attr(titl);
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: orange;
+    -webkit-text-stroke: 0vw rgba(27, 28, 27, 0.894);
+    /* border-right:2px solid rgba(255, 166, 0, 0.224) ; */
+    overflow: hidden;
+    animation: animate 6% linear infinite;
+  }
+@keyframes animate {
+  0%,10%,100%{
+    width: 0;
+  }
+  70%,90%{
+    width: 100%;
+  }
+  
+}  
+  .hitler-intro p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: aliceblue;
+  }
+  

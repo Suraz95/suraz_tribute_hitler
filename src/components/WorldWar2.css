@@ -1,0 +1,37 @@
+/* WorldWar2.css */
+.page-container {
+    padding: 20px;
+  }
+  
+  .world-war2-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .world-war2-text {
+    flex: 2;
+  }
+  
+  .world-war2-text h1 {
+    font-size: 30px;
+    color:#EA906C;;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 18px;
+    color: aliceblue;
+    text-align: justify;
+    line-height: 1.6;
+  }
+  
+  .world-war2-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .world-war2-image img {
+    max-width: 60%;
+    border-radius: 10px;
+  }
+  

@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* background-color: black; */
+}
+body{
+  /* background-color: rgba(0, 0, 0, 0.933); */
+  scroll-behavior: smooth;
+  background-image: url(./assets/wallpaper.jpg);
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* scroll-behavior: smooth; */
+  
+  /* filter:blur(10px); */
+
+  /* color:aliceblue */
+}hr{
+  width: 90%;
+  /* display: flex; */
+  margin-left: 90px;
+  /* align-items: center; */
+}
